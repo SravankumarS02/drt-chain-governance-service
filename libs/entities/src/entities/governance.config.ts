@@ -1,4 +1,4 @@
-import { BinaryUtils } from '@multiversx/sdk-nestjs-common';
+import { BinaryUtils } from '@terradharitri/sdk-nestjs-common';
 import { ApiProperty } from '@nestjs/swagger';
 import { VmQueryResponse } from '@libs/common/vm-query/dtos/vm-query.response';
 

@@ -1,4 +1,4 @@
-REST API facade template for microservices that interacts with the MultiversX blockchain.
+REST API facade template for microservices that interacts with the DharitrI blockchain.
 
 ## Quick start
 
@@ -32,7 +32,7 @@ This is used to keep the application cache in sync with new updates.
 
 ### `Transaction Processor`
 
-This is used for scanning the transactions from MultiversX Blockchain.
+This is used for scanning the transactions from DharitrI Blockchain.
 
 ### `Queue Worker`
 
@@ -46,7 +46,7 @@ Use `admin` for user and password fields. Then navigate to `Dashboards` -> `Temp
 
 ## Available Scripts
 
-This is a MultiversX project built on Nest.js framework.
+This is a DharitrI project built on Nest.js framework.
 
 ### Environment variables
 
@@ -83,7 +83,6 @@ In order to simplify the scripts, the templates will use the following environme
 **Possible Values**: `true`, `false`
 
 **Usage**: When set to true, the application starts in watch mode, which automatically reloads the app on code changes.
-
 
 ### `npm run start`
 

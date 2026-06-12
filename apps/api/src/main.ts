@@ -20,13 +20,13 @@ import { Logger, NestInterceptor, ValidationPipe } from '@nestjs/common';
 import { MicroserviceOptions, Transport } from '@nestjs/microservices';
 import cookieParser from 'cookie-parser';
 import { PubSubListenerModule } from '@libs/common';
-import { LoggingInterceptor, MetricsService, RequestCpuTimeInterceptor } from '@multiversx/sdk-nestjs-monitoring';
-import { LoggerInitializer } from '@multiversx/sdk-nestjs-common';
+import { LoggingInterceptor, MetricsService, RequestCpuTimeInterceptor } from '@terradharitri/sdk-nestjs-monitoring';
+import { LoggerInitializer } from '@terradharitri/sdk-nestjs-common';
 
-import '@multiversx/sdk-nestjs-common/lib/utils/extensions/array.extensions';
-import '@multiversx/sdk-nestjs-common/lib/utils/extensions/date.extensions';
-import '@multiversx/sdk-nestjs-common/lib/utils/extensions/number.extensions';
-import '@multiversx/sdk-nestjs-common/lib/utils/extensions/string.extensions';
+import '@terradharitri/sdk-nestjs-common/lib/utils/extensions/array.extensions';
+import '@terradharitri/sdk-nestjs-common/lib/utils/extensions/date.extensions';
+import '@terradharitri/sdk-nestjs-common/lib/utils/extensions/number.extensions';
+import '@terradharitri/sdk-nestjs-common/lib/utils/extensions/string.extensions';
 import { AppConfigService } from './config/app-config.service';
 import { CommonConfigService } from '@libs/common/config/common.config.service';
 
@@ -53,10 +53,10 @@ async function bootstrap() {
   const description = readFileSync(join(__dirname, '..', 'docs', 'swagger.md'), 'utf8');
 
   const config = new DocumentBuilder()
-    .setTitle('MultiversX On-Chain Governance Service API')
+    .setTitle('DharitrI On-Chain Governance Service API')
     .setDescription(description)
     .setVersion('1.0.0')
-    .setExternalDoc('MultiversX Docs', 'https://docs.multiversx.com')
+    .setExternalDoc('DharitrI Docs', 'https://docs.dharitri.org')
     .build();
 
   const document = SwaggerModule.createDocument(publicApp, config);

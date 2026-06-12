@@ -1,6 +1,6 @@
 import { Controller, DefaultValuePipe, Get, Param, Query } from '@nestjs/common';
 import { ViewService } from '@libs/services/view/view.service';
-import { ParseAddressPipe, ParseIntPipe } from '@multiversx/sdk-nestjs-common';
+import { ParseAddressPipe, ParseIntPipe } from '@terradharitri/sdk-nestjs-common';
 import { ApiQuery } from '@nestjs/swagger';
 import { GovernanceProposal } from '@libs/entities/entities/governance.proposal';
 import { GovernanceVotingPower } from '@libs/entities/entities/governance.voting.power';

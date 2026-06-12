@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { CacheService } from '@multiversx/sdk-nestjs-cache';
+import { CacheService } from '@terradharitri/sdk-nestjs-cache';
 import { CacheInfo } from '@libs/common';
 import { GovernanceConfig } from '@libs/entities/entities/governance.config';
 import { GovernanceProposal } from '@libs/entities/entities/governance.proposal';

@@ -42,7 +42,7 @@ lerna-debug.log*
 **/*/config/config.yaml
 **/*/config/schema.yaml
 
-!.multiversx/config/config.yaml
+!.dharitri/config/config.yaml
 
 # Environment
 .env

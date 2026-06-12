@@ -1,8 +1,8 @@
 import { Injectable } from "@nestjs/common";
-import { ApiService } from '@multiversx/sdk-nestjs-http';
+import { ApiService } from '@terradharitri/sdk-nestjs-http';
 import { VmQueryArguments } from './dtos/vm-query.arguments';
 import { CommonConfigService } from '../config';
-import { OriginLogger } from '@multiversx/sdk-nestjs-common';
+import { OriginLogger } from '@terradharitri/sdk-nestjs-common';
 
 @Injectable()
 export class VmQueryService {

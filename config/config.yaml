@@ -6,7 +6,7 @@ apps:
 libs:
   common:
     governance:
-      contractAddress: 'erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqrlllsrujgla'
+      contractAddress: 'drt1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqrllls7q9tur'
     network: ${NETWORK}
     urls:
       api: ${API_URL}
@@ -23,7 +23,7 @@ libs:
     nativeAuth:
       # maxExpirySeconds:
       acceptedOrigins:
-        - utils.multiversx.com
+        - utils.dharitri.org
     security:
       admins: []
     # rateLimiterSecret:

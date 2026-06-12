@@ -1,7 +1,7 @@
 import { VmQueryService } from '@libs/common/vm-query/vm-query.service';
 import { CommonConfigService } from '@libs/common';
 import { VmQueryArguments } from '@libs/common/vm-query/dtos/vm-query.arguments';
-import { AddressUtils, BinaryUtils } from '@multiversx/sdk-nestjs-common';
+import { AddressUtils, BinaryUtils } from '@terradharitri/sdk-nestjs-common';
 import { VmQueryResponse } from '@libs/common/vm-query/dtos/vm-query.response';
 
 export class GovernanceContractService {

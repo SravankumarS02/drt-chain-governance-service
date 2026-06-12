@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { BinaryUtils } from '@multiversx/sdk-nestjs-common';
+import { BinaryUtils } from '@terradharitri/sdk-nestjs-common';
 
 export class GovernanceProposal {
   constructor(init?: Partial<GovernanceProposal>) {
@@ -15,7 +15,7 @@ export class GovernanceProposal {
   @ApiProperty({ description: 'The nonce of the proposal.', example: 37 })
   proposalNonce?: number;
 
-  @ApiProperty({ description: 'The address of the proposal\'s issuer address.', example: 'erd1qyu5wthldzr8wx5c9ucg8kjagg0jfs53s8nr3zpz3hypefsdd8ssycr6th' })
+  @ApiProperty({ description: 'The address of the proposal\'s issuer address.', example: 'drt1qyu5wthldzr8wx5c9ucg8kjagg0jfs53s8nr3zpz3hypefsdd8ssey5egf' })
   issuerAddress?: string;
 
   @ApiProperty({ description: 'The epoch when the vote can start.', example: 1512 })

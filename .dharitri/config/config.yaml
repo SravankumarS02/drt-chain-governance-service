@@ -28,7 +28,7 @@ libs:
     nativeAuth:
       # maxExpirySeconds:
       acceptedOrigins:
-        - utils.multiversx.com
+        - utils.dharitri.org
     security:
       admins: []
     # rateLimiterSecret:

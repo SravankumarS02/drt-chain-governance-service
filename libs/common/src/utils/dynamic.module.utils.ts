@@ -1,9 +1,9 @@
-import { ERDNEST_CONFIG_SERVICE } from "@multiversx/sdk-nestjs-common";
-import { CacheModule, RedisCacheModuleOptions } from "@multiversx/sdk-nestjs-cache";
+import { DRTNEST_CONFIG_SERVICE } from "@terradharitri/sdk-nestjs-common";
+import { CacheModule, RedisCacheModuleOptions } from "@terradharitri/sdk-nestjs-cache";
 import { DynamicModule, Provider } from "@nestjs/common";
 import { ClientOptions, ClientProxyFactory, Transport } from "@nestjs/microservices";
 import { CommonConfigModule, CommonConfigService, SdkNestjsConfigServiceImpl } from "../config";
-import { ApiModule, ApiModuleOptions } from '@multiversx/sdk-nestjs-http';
+import { ApiModule, ApiModuleOptions } from '@terradharitri/sdk-nestjs-http';
 
 export class DynamicModuleUtils {
   static getCachingModule(): DynamicModule {
@@ -22,7 +22,7 @@ export class DynamicModuleUtils {
 
   static getNestJsApiConfigService(): Provider {
     return {
-      provide: ERDNEST_CONFIG_SERVICE,
+      provide: DRTNEST_CONFIG_SERVICE,
       useClass: SdkNestjsConfigServiceImpl,
     };
   }

@@ -1,4 +1,4 @@
-import { ConfigurationLoader, ConfigurationLoaderSettings } from "@multiversx/sdk-nestjs-common";
+import { ConfigurationLoader, ConfigurationLoaderSettings } from "@terradharitri/sdk-nestjs-common";
 import { join } from "path";
 import { Config } from "../entities/config";
 
